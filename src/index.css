@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+    
+}
+
+@utilities {
+    
+}
+
+.side__nav {
+    @apply flex flex-col gap-3 pb-4 border-b-[1px] border-gray-600;
+}
+
+.list__nav {
+    @apply flex gap-5 items-center block w-full rounded-md p-2 hover:bg-[#272727]
+}
+
+.footer {
+    ul {
+        @apply text-sm pr-[15px] mb-3 text-[#aaa] font-semibold;
+        li {
+            @apply inline-block mr-[8px];
+        }
+    }
+}
+
+.category {
+    ul {
+        li {
+            button {
+                @apply rounded-md py-[6px] px-[12px]
+            }
+            
+        }
+    }
+}
+
