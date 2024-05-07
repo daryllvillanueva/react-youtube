@@ -1,5 +1,39 @@
 export const videos = [
     {
+        title: "Diwata Pares Overload Honest Food Review (Mas Masarap si Diwata)",
+        img: "video-10.webp",
+        logo: "logo-10.jpg",
+        duration: "13:59",
+        author: "PaoLUL",
+        views: "237K views",
+        time: "14 hours ago",
+        grouping: "all"
+        
+    },
+
+    {
+        title: "BINI | 'Salamin, Salamin' Official Music Video",
+        img: "video-12.webp",
+        logo: "logo-12.jpg",
+        duration: "4:29",
+        author: "BINI Official",
+        views: "5.7M views",
+        time: "1 month ago",
+        grouping: "music"
+    },
+
+    {
+        title: "Dota 2 WTF Moments 535",
+        img: "video-11.webp",
+        logo: "logo-11.jpg",
+        duration: "12:26",
+        author: "Dota Watafak",
+        views: "300K views",
+        time: "8 hours ago",
+        grouping: "all"
+    },
+
+    {
         title: "LARVA Season 1 Episode 316 ~ 417 | Best Cartoons 2022 | Comics",
         img: "video-1.webp",
         logo: "logo-1.jpg",
@@ -33,14 +67,25 @@ export const videos = [
     },
 
     {
-        title: "FALCONS vs BETBOOM - GRAND FINAL - ESL ONE BIRMINGHAM",
+        title: "Phoenix Suns vs Minnesota Timberwolves | Edwards winalis si Kevin Durant | Kevin Durant umiyak",
         img: "video-4.webp",
         logo: "logo-4.jpg",
         duration: "33:53",
         author: "The Scoreboard",
-        views: "31K views",
+        views: "100K views",
         time: "4 hours ago",
         grouping: "all"
+    },
+
+    {
+        title: "#BINI : Pantropiko Performance Video | BINI",
+        img: "video-13.webp",
+        logo: "logo-12.jpg",
+        duration: "4:25",
+        author: "BINI Official",
+        views: "11M views",
+        time: "5 months ago",
+        grouping: "music"
     },
 
     {
@@ -102,55 +147,55 @@ export const videos = [
         grouping: "music",
 
     },
-
-    {
-        title: "Gotye - Somebody That I Used To Know (feat. Kimbra) [Official Music Video]",
-        img: "video-9.webp",
-        logo: "logo-9.jpg",
-        duration: "4:04",
-        author: "Gotyemusic",
-        views: "2.2B views",
-        time: "12 years ago",
-        grouping: "music",
-
-    },
-
-    {
-        title: "Gotye - Somebody That I Used To Know (feat. Kimbra) [Official Music Video]",
-        img: "video-9.webp",
-        logo: "logo-9.jpg",
-        duration: "4:04",
-        author: "Gotyemusic",
-        views: "2.2B views",
-        time: "12 years ago",
-        grouping: "music",
-
-    },
-
-    {
-        title: "Gotye - Somebody That I Used To Know (feat. Kimbra) [Official Music Video]",
-        img: "video-9.webp",
-        logo: "logo-9.jpg",
-        duration: "4:04",
-        author: "Gotyemusic",
-        views: "2.2B views",
-        time: "12 years ago",
-        grouping: "music",
-
-    },
-
-    {
-        title: "Gotye - Somebody That I Used To Know (feat. Kimbra) [Official Music Video]",
-        img: "video-9.webp",
-        logo: "logo-9.jpg",
-        duration: "4:04",
-        author: "Gotyemusic",
-        views: "2.2B views",
-        time: "12 years ago",
-        grouping: "music",
-
-    },
-
 ]
 
+export const topLiveGames = [
+    {
+        img: "top-1.jpg",
+        title: "Counter-Strike 2",
+        views: "98K watching worldwide",
+    },
+
+    {
+        img: "top-2.jpg",
+        title: "Free Fire",
+        views: "54K watching worldwide",
+    },
+
+    {
+        img: "top-3.jpg",
+        title: "Valorant",
+        views: "52K watching worldwide",
+    },
+
+    {
+        img: "top-4.png",
+        title: "Grand Theft Auto V",
+        views: "36K watching worldwide",
+    },
+
+    {
+        img: "top-5.png",
+        title: "Minecraft",
+        views: "17K watching worldwide",
+    },
+
+    {
+        img: "top-6.jpg",
+        title: "Call of Duty: Warzone",
+        views: "13K watching worldwide",
+    },
+
+    {
+        img: "top-1.jpg",
+        title: "Counter-Strike 2",
+        views: "98K watching worldwide",
+    },
+
+    {
+        img: "top-2.jpg",
+        title: "Free Fire",
+        views: "54K watching worldwide",
+    },
+]
 

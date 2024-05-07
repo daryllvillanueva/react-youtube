@@ -49,6 +49,11 @@ export const subscriptions = [
     },
 
     {
+        img: "logo-12.jpg",
+        nav: "BINI",
+    },
+
+    {
         img: "browse.svg",
         nav: "Browse channels",
     },

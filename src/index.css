@@ -31,7 +31,7 @@
     ul {
         li {
             button {
-                @apply rounded-md py-[6px] px-[12px]
+                @apply rounded-md py-[4px] px-[12px]
             }
             
         }

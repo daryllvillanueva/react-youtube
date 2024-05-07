@@ -3,7 +3,9 @@ import Header from '../../partials/Header'
 import Footer from '../../partials/Footer';
 import Video from '../Video/Video';
 import SideBar from './SideBar';
-import { videos } from '../Video/data';
+import {topLiveGames, videos } from '../Video/data';
+import TopLiveGames from '../Video/TopLiveGames';
+import Shorts from '../Video/Shorts';
 
 
 const Home = () => {
@@ -14,14 +16,14 @@ const Home = () => {
   return (
     <>
       <Header/>
-      <div className="h-full bg-black py-2">
+      <div className="h-full bg-[#0f0f0f] pt-[60px]">
         <div className="px-6 grid grid-cols-[12%_1fr] gap-5">
           <aside className='flex flex-col gap-3 text-white py-4'>
             <SideBar/>
             <Footer/>
           </aside>
-          <main className='py-4'>
-            <div className='category px-4 mb-7'>
+          <main className='pb-4'> 
+            <div className='category pt-4 px-4 pb-3 bg-[#0f0f0f] fixed z-[999]'>
               <ul className='flex gap-4 text-white items-center flex-wrap whitespace-nowrap'>
                 <li><button className={`${menuTab === "all" ? "bg-[#f1f1f1] text-[#0f0f0f]" : " bg-[#ffffff1a]"}`} onClick={() => handleChangeMenu("all")}>All</button></li>
                 <li><button className={`${menuTab === "music" ? "bg-[#f1f1f1] text-[#0f0f0f]" : "bg-[#ffffff1a]"}`} onClick={() => handleChangeMenu("music")}>Music</button></li>
@@ -41,8 +43,18 @@ const Home = () => {
               </ul>
             </div>
             {menuTab === "all" && <Video videos={videos} grouping="all"/>}
-            {menuTab === "music" && <Video videos={videos} grouping="music"/>}
-            {menuTab === "gaming" && <Video videos={videos} grouping="gaming"/>}
+            {menuTab === "music" && (<><Video videos={videos} grouping="music" sliderHeader="Top Music"/><TopLiveGames/></>)}
+            {menuTab === "gaming" && (
+              <>
+                <Video videos={videos} topLiveGames={topLiveGames} grouping="gaming" sliderHeader="Top Games"/>
+                <TopLiveGames/>
+              </>
+            )} 
+
+            <Shorts/>
+
+                    
+            
           </main>
         </div>
       </div>
@@ -53,3 +65,5 @@ const Home = () => {
 }
 
 export default Home
+
+
